@@ -10,10 +10,10 @@ import java.time.LocalDateTime;
 
 @RestController
 public class FunRestController {
-    private static Logger audit = LoggerFactory.getLogger("login");
+    private static Logger logger = LoggerFactory.getLogger("login");
 
      public FunRestController() {
-         audit.info("!!!!TEST");
+         logger.info("!!!!TEST");
      }
 
     @GetMapping("/")
